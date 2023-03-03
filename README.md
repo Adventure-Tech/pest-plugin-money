@@ -1,5 +1,11 @@
 # pest-plugin-money
 
+DO NOT USE
+
+This is a copy of the official library. The reason for it's existence is that we needed a working
+version with support for Pest 2 before the official libarary had been updated. As soon as the
+official package has been updated, we will delete this repo.
+
 This package is a plugin for [Pest PHP](https://pestphp.com). It allows you to write tests against monetary values 
 provided by either [brick/money](https://github.com/brick/money), [moneyphp/money](https://github.com/moneyphp/money) or [archtechx/money](https://github.com/archtechx/money)
 using the same declarative syntax you're used to with Pest's expectation syntax.
